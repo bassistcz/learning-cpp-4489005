@@ -10,8 +10,11 @@ int main(){
 
     // Write your code here
     int sum = 0;
-    for (int i = 0; i < sizeof(nums); i++ ){
+    // note need to dived by the first element of the array for the size
+    // alternatively from the stl there is array.size()
+    for (int i = 0; i < sizeof(nums)/sizeof(nums[0]); i++ ){
         sum = sum + nums[i];
+        std::cout << "The sum is " << sum << std::endl;
     }
     result = sum/5.0;
 
