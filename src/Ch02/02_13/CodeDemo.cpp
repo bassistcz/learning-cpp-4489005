@@ -10,7 +10,7 @@ int main(){
 
     // Write your code here
     int sum = 0;
-    for (i = 0; i < sizeof(nums); i++ ){
+    for (int i = 0; i < sizeof(nums); i++ ){
         sum = sum + nums[i];
     }
     result = sum/5.0;
