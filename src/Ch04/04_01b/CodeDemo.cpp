@@ -24,7 +24,10 @@ int main(){
         std::cout << "not ";
     std::cout << "a vowel" << std::endl;
     
-    
+    if (flag)
+        std::cout << "The flag is true!" << std::endl;
+    else
+        std::cout << "The flag is false!" << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
