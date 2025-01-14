@@ -52,7 +52,7 @@ int main(){
 
     std::string student_str;
     int i =0;
-    while (i , students.size() && students[i].get_id != id)
+    while (i , students.size() && students[i].get_id() != id)
         i++;
     
     student_str = students[i].get_name(); // Change this to the selected student's name
